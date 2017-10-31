@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="lib/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="src/MumsPalace.js"></script>
+	<script src="src/CakeShop.js"></script>
+	<script src="src/Cake.js"></script>
+	<script src="src/Controller.js"></script>
+    <script src="lib/should.js"></script>
+    <script src="lib/mocha.js"></script>
+	
+	
+    <script>
+      mocha.setup('bdd');
+    </script>
+	<script src="lib/module.js"></script>
+	<script src="spec/question00Spec.js"></script>
+	<script src="spec/question01Spec.js"></script>
+	<script src="spec/question02Spec.js"></script>
+	<script src="spec/question03Spec.js"></script>
+	<script src="spec/question04_05Spec.js"></script>
+	<script src="spec/question06Spec.js"></script>
+	<script src="spec/question07Spec.js"></script>
+	<script>
+	
+	window.onload = mocha.run();
+	</script>
+  </body>
+</html>
